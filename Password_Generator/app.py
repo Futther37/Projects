@@ -1,8 +1,8 @@
 import streamlit as st
 from password import RandomPasswordGenerator, PinCodeGenerator, MemorablePasswordGenerator
 
-st.set_page_config(page_title="Password Generator Dashboard", page_icon="🔐")
-st.title("🔐 Password Generator Dashboard")
+st.set_page_config(page_title="Generátor hesel", page_icon="🔐")
+st.title("🔐 Generátor hesel")
 st.write("Vítejte! Vyberte typ hesla, který chcete vygenerovat a přizpůsobte si jeho parametry.")
 
 # Výběr typu generátoru
